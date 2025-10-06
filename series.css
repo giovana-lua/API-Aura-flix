@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ header{
+    background-color: #502556;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 15px 50px;
+} 
+
+.header-icons i{
+    font-size: 20px;
+    
+}
+
+ .container-logo {
+    max-width: 150px;
+    height: auto;
+    display: block;
+} 
+
+.pesquisa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #56277b;
+    height: 50px;
+        
+}
+
+body{
+    background-color: #6a4388 ;
+}
