@@ -91,3 +91,11 @@ body{
     height: 300px;
     flex-direction: column;
 }
+
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}

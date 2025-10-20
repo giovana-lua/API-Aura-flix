@@ -1,24 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="series.css">
     <script src="app.js">defer</script>
-    <title>Document</title>
+    <title>Series</title>
     <script src="https://kit.fontawesome.com/787b6dfa4f.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
-    <header> 
+    <header>
         <div class="container-logo">
-            <img src="./img/logo.png" alt="">                     
-       </div>  
-           
-       <div>
-        <i class="fa-solid fa-heart" style="color: #000000;"></i>
-        <i class="fa-solid fa-user" style="color: #000000;"></i>
-       </div>
-            
+            <img src="./img/logo.png" alt="">
+        </div>
+
+        <div>
+            <i class="fa-solid fa-heart" style="color: #000000;"></i>
+            <i class="fa-solid fa-user" style="color: #000000;"></i>
+        </div>
+
     </header>
-    <nav class="pesquisa" id="buscar-filme">            
+    <nav class="pesquisa" id="buscar-filme">
+        <input class="barra-pesquisa" type="text" placeholder="Busque sua serie aqui...">
+        <button class="botao-pesquisa">Buscar</button>
     </nav>
+    <main class="main-container">
+        <section class="container-conteudo" id="series">
+            <div class="container-img"><img id="imagens" src="./img/tvd.png" alt=""></div>
+              
+
+            <div class="detalhes">
+                <h2 class="serie-titulo">The Vampire Diaries</h2>
+
+
+                <div class="avaliacao">
+                    <img src="./img/stars.png" alt=""> <p class="genero">Fantasia | Drama | Ficção</p>
+                </div>
+                <p id="descricao" class="sinopse">
+                    Elena Gilbert, uma adolescente de Mystic Falls, que se apaixona por um misterioso vampiro de 162 anos, Stefan Salvatore. 
+                    A relação deles se complica com a chegada de Damon, o irmão mais velho de Stefan, que é perigoso e imprevisível.
+                    A série segue o sempre tranquilo amoroso entre os três, enquanto eles lidam com ameaças sobrenaturais, 
+                    segredos do passado e as intrigas de uma cidade cheia de vampiros, lobisomens e bruxas.
+                </p>
+
+               
+
+                <div class="botoes">
+                    <button class="btn-episodios">Episódios</button>
+                    <button class="btn-elenco">Elenco</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="recomedacoes">
+            <div class="card-serie-1">
+                <img src="./img/series.png" alt="">
+                <p class="card-titulo">Teen Wolf</p>
+            </div>
+
+            <div class="card-serie-2">
+                <img src="./img/sdh.png" alt="">
+                <p class="card-titulo">Shadow Hunters</p>
+            </div>
+
+            <div class="card-serie-1">
+                <img src="./img/series.png" alt="">
+                <p class="card-titulo">Teen Wolf</p>
+            </div>
+
+            <div class="card-serie-2">
+                <img src="./img/sdh.png" alt="">
+                <p class="card-titulo">Shadow Hunters</p>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        Giovana Barbosa Souza
+    </footer>
+
+</body>
+
+</html>
