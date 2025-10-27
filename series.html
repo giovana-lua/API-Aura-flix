@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="series.css">
+    
     <script src="app.js">defer</script>
     <title>Series</title>
     <script src="https://kit.fontawesome.com/787b6dfa4f.js" crossorigin="anonymous"></script>
@@ -23,10 +23,11 @@
 
     </header>
     <nav class="pesquisa" id="buscar-filme">
-        <input class="barra-pesquisa" type="text" placeholder="Busque sua serie aqui...">
-        <button class="botao-pesquisa">Buscar</button>
+        <input class="barra-pesquisa" type="text" placeholder="Busque sua serie aqui..." id="input-serie">
+        <button class="botao-pesquisa">Buscar</button id = "button-search">
     </nav>
-    <main class="main-container">
+
+    <main class="main-container" id="resultado">
         <section class="container-conteudo" id="series">
             <div class="container-img"><img id="imagens" src="./img/tvd.png" alt=""></div>
               
@@ -44,12 +45,13 @@
                     A série segue o sempre tranquilo amoroso entre os três, enquanto eles lidam com ameaças sobrenaturais, 
                     segredos do passado e as intrigas de uma cidade cheia de vampiros, lobisomens e bruxas.
                 </p>
+                <p></p>
 
                
 
                 <div class="botoes">
-                    <button class="btn-episodios">Episódios</button>
-                    <button class="btn-elenco">Elenco</button>
+                   <a href="./episodios.html"> <button class="btn-episodios">Episódios</button> </a> 
+                   <a href="./episodios.html"><button class="btn-elenco">Elenco</button></a>
                 </div>
             </div>
         </section>
@@ -81,7 +83,7 @@
     <footer>
         Giovana Barbosa Souza
     </footer>
-
+    <link rel="stylesheet" href="series.css">
 </body>
 
 </html>
